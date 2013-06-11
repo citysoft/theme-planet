@@ -1,0 +1,36 @@
+/*****
+CitySoft
+Planet Template
+Home CSS
+*****/
+
+#home-one, #home-two, #home-three { 
+	background-repeat: no-repeat; 
+	border-top: 10px solid; 
+	display: block;
+}
+
+#home-one { border-color: #ece5c7; }
+
+#home-two, #home-three { border-color: #f9f6e1; float: left; }
+
+#home-two { width: 319px; height: 85px; background-image: url('../images/home-two.jpg'); margin: 15px 14px 0 0; }
+#home-three { width: 271px; height: 85px; background-image: url('../images/home-three.jpg'); margin: 15px 0 0 0; }
+
+#home-one h2, #home-two h2, #home-three h2 {
+	color: #fff;
+	font-family: georgia, serif;
+	font-weight: 400;
+	margin-left: 40px;
+	margin-bottom: 0;
+}
+
+#home-one h2 { 	margin-top: 50px; }
+#home-one h2, #home-one p { display: block; }
+
+#home-one p, #home-two p, #home-three p { margin: 0 0 0 40px; }
+
+#home-header a { color: #fff; text-decoration: none; }
+#home-header a:hover, #home-header a:focus, #home-header a:active { 
+	text-decoration: underline;	
+} 

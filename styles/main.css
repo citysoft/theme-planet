@@ -1,0 +1,239 @@
+/*****
+CitySoft
+Planet Template
+Main CSS
+*****/
+
+body { 
+	color: #0f0803; 
+	font-family: arial, sans-serif;
+	font-size: .9em;
+	line-height: 1.67em;
+	margin: 0; 
+}
+
+a { color: #bd2f50; text-decoration: underline; }
+a:hover, a:focus, a:active { outline: 0; text-decoration: none; }
+
+.clear { clear: both; }
+
+#container {
+	width: 1050px;
+	display: block;
+	margin: 0 auto;
+	position: relative;	
+}
+
+input { border: 0; height: 26px; } 
+
+input.appInputButton { width: auto; border: 1px outset #eee; display: block; }
+input.appInputButton:hover, 
+input.appInputButton:focus, 
+input.appInputButton:active {
+	background-color: #ddd;
+}
+
+#socialmedia, #right-col-two h2 {
+	font-family: georgia, serif;
+	font-size: 1.2em;
+	letter-spacing: 1px;
+}
+
+/**** HEADER ***/
+
+#home-one {
+	width: 604px;
+	height: 159px;
+	background-image: url('../images/home-one.jpg');
+	border: 10px solid #ece5c7;
+	border-right: 0;
+	border-bottom: 0;
+	border-left: 0;
+	
+}
+
+#home-one p, #home-one h2 { display: none; }
+
+#home-two, #home-three { display: none; }
+
+a#logo {
+	width: 194px; 
+	height: 86px;
+	background-image: url('../images/logo.png');	
+	background-repeat: no-repeat;
+	border: 0;
+	display: block;
+	position: absolute;
+	top: 50px;
+}
+
+/**** SOCIAL MEDIA ****/
+
+#socialmedia {
+	width: 200px;
+	background-color: #544c4a; 
+	color: #fff; 
+	position: absolute;
+	top: 185px;
+}
+
+#socialmedia p, #socialmedia div { margin: .67em .75em; }
+#socialmedia p + #socialmedia div { margin-top: 0; }
+
+#socialmedia div a img {
+	width: 30px; 
+	border: 0; 
+	display: inline;
+	margin: 0;
+}
+
+/***** NAV *****/
+
+ul#nav {
+	width: 200px;
+	border-bottom: 1px solid #000; 
+	color: #333; 
+	font-family: georgia, serif;
+	font-size: .77em;
+	font-weight: 700;
+	margin: 0;
+	padding: 0;
+	position: absolute;
+	top: 325px;
+}
+
+ul#nav li { 
+	list-style-type: none; 
+	margin: 0;
+	padding: 0;
+	text-transform: uppercase; 
+}
+
+ul#nav li a { 
+	width: 200px;
+	border-top: 1px solid #000; 
+	color: #333;
+	display: block;
+	padding: 1% 0;
+	text-decoration: none;
+	text-indent: 1.8em; 
+}
+ul#nav li a:hover, ul#nav li a:active, ul#nav li a:focus { background-color: #f9f6e1; }
+
+ul#nav li.currentnav a { background-color: #ece5c7; }
+
+/* second level */
+ul#nav ul { 
+	display: block;
+	font-size: 1.1em; 
+	font-weight: 400; 
+	padding: 0; 
+}
+
+ul#nav li ul li { text-transform: none; }
+ul#nav li ul li a { text-indent: 3em; }
+
+ul#nav li ul li a:hover, 
+ul#nav li ul li a:active, 
+ul#nav li ul li a:focus 
+{ background-color: #f9f6e1; }
+
+ul#nav li.currentnav a:hover,   
+ul#nav li.currentnav a:active,
+ul#nav li.currentnav a:focus
+{ background-color: #f9f6e1; }
+
+/**** CONTENT ****/
+
+#contentContainer {
+	width: 604px;
+	position: absolute;
+	left: 212px;
+}
+
+#mainContent { 
+	width: 90%; 
+	clear: both; 
+	margin: 0 auto;
+	padding-top: 43px;
+ }
+
+#mainContent h1 { 
+	color: #544C4A; 
+	font-family: georgia, serif; 
+	font-size: 2.4em;
+	margin: 0 0 .9em;	
+}
+
+#mainContent h2 { 
+	font-family: georgia, serif;
+	margin-top: 0; 
+}
+
+/**** LOGIN ****/
+
+#login { 
+	width: 215px;
+	background-color: #4d8c99; 
+	border-top: 1em solid #72b1be; 
+	color: #fff; 	
+	font-size: .8em;
+	font-family: georgia, serif;	
+	position: absolute;
+	top: 0;
+	left: 615px;
+}
+
+#login h2 {
+	border-bottom: 1px white solid;
+	font-size: 1em;
+	font-weight: 400;
+	margin: 1em 1em 0;
+}
+
+#login a { color: #fff; text-decoration: underline; }
+#login a:hover, #login a:focus, #login a:active { text-decoration: none; }
+#login input { width: 180px; }
+
+#login input.appInputButton { width: auto; margin: 16px auto; }
+
+#loginwidget { margin: 1em; }
+
+.logintext { width: 100%; display: block; margin-top: 17px; }
+.forgottext { margin-left: 6%; }
+
+/**** RIGHT COL TWO ****/
+
+#right-col-two {
+	width: 215px;
+	background-color: #f9f6e1; 
+	padding-bottom: 1em; 
+	position: absolute;
+	top: 320px;
+	left: 615px;
+}
+
+#right-col-two h2 { 
+	font-weight: 400;
+	margin: 1em;
+}
+
+#right-col-two img { display: block; margin: 0 auto; }
+
+#right-col-two p { 
+	font-family: arial, serif;
+	font-size: 1em;
+	margin: 1em 1em 0; 
+	text-align: center; 
+}
+
+#right-col-two p a { 
+	color: #0f0803; 
+	font-family: georgia, serif;
+	font-size: .9em;
+	text-decoration: underline;	
+}
+
+#right-col-two p a:hover, #right-col-two p a:focus, #right-col-two p a:active {
+	text-decoration: none; 	
+}
