@@ -12,7 +12,7 @@ Home CSS
 
 #home-one { border-color: #ece5c7; }
 
-#home-two, #home-three { border-color: #f9f6e1; float: left; }
+#home-two, #home-three { border-color: #ece5c7; float: left; }
 
 #home-two { width: 319px; height: 85px; background-image: url('../images/home-two.jpg'); margin: 15px 14px 0 0; }
 #home-three { width: 271px; height: 85px; background-image: url('../images/home-three.jpg'); margin: 15px 0 0 0; }
